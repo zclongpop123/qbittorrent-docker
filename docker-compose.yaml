@@ -1,9 +1,9 @@
-version: "3"
+version: '3'
 services:
     qbittorrent:
         container_name: qbittorrent
         
-        image: lscr.io/linuxserver/qbittorrent
+        image: linuxserver/qbittorrent
         restart: unless-stopped
         
         volumes:
